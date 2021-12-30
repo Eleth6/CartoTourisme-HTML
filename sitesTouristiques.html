@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Carto-Tourisme</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="css/animate.css">
+
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/magnific-popup.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+  <link rel="stylesheet" href="css/flaticon.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <a class="navbar-brand pl-5" href="index.html">Bénin<span>Carto-Tourisme</span></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="ftco-nav">
+      <ul class="navbar-nav ml-auto">
+        <li id="accueil" class="nav-item"><a href="index.html" class="nav-link">Accueil</a></li>
+        <li class="nav-item"><a href="carte.html" class="nav-link other">Carte</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Lieux à visiter
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="sitesTouristiques.html">Sites touristiques</a>
+          <a class="dropdown-item" href="hotels.html">Hôtels et auberges</a>
+          <a class="dropdown-item" href="restaurants.html">Bars et restaurants</a>
+          </div>
+        </li>
+        <li class="nav-item"><a href="actualite.html" class="nav-link other">Actualité et événements</a>
+        </li>
+        <li class="nav-item"><a href="infos.html" class="nav-link other">Infos importantes</a></li>
+        <li class="nav-item"><a href="contact.html" class="nav-link other">Nous contacter</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- END nav -->
+
+  <section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images bénin/ponton.jpg');">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+        <div class="col-md-9 ftco-animate pb-5 text-center">
+          <p class="mt-5 breadcrumbs">
+            <span class="mr-2">
+              <a href="index.html">Accueil <i class="fa fa-chevron-right"></i></a>
+            </span>
+            <span>Sites touristiques <i class="fa fa-chevron-right"></i></span>
+          </p>
+          <h1 class="mb-3 bread">Sites touristiques</h1>
+          <p class="caps">Informations sur les sites touristiques et lieux incontournables du pays <br> (horaires, prix
+            des billets, localisation, ...).
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section ftco-no-pb">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="search-wrap-1 ftco-animate">
+            <form action="#" class="search-property-1">
+              <div class="row no-gutters">
+                <div class="col-lg d-flex">
+                  <div class="form-group p-4">
+                    <label for="#">Ville</label>
+                    <div class="form-field">
+                      <div class="select-wrap">
+                        <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                        <select name="" id="" class="form-control">
+                          <option value="">Choisissez une ville</option>
+                          <option value="">Abomey</option>
+                          <option value="">Abomey-Calavi</option>
+                          <option value="">Allada</option>
+                          <option value="">Bohicon</option>
+                          <option value="">Boukombé</option>
+                          <option value="">Comé</option>
+                          <option value="">Cotonou</option>
+                          <option value="">Dassa</option>
+                          <option value="">Djougou</option>
+                          <option value="">Ganvié</option>
+                          <option value="">Godomey</option>
+                          <option value="">Grand Popo</option>
+                          <option value="">Kandi</option>
+                          <option value="">Kétou</option>
+                          <option value="">Lokossa</option>
+                          <option value="">Natitinqou</option>
+                          <option value="">Nikki</option>
+                          <option value="">Ouidah</option>
+                          <option value="">Parakou</option>
+                          <option value="">Porto-Novo</option>
+                          <option value="">Savalou</option>
+                          <option value="">Savé</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg d-flex">
+                  <div class="form-group p-4">
+                    <label for="#">Type de lieu touristique</label>
+                    <div class="form-field">
+                      <div class="select-wrap">
+                        <div class="icon"><span class="fa fa-chevron-down"></span></div>
+                        <select name="" id="" class="form-control">
+                          <option value="">Choisissez un type</option>
+                          <option value="">Musées</option>
+                          <option value="">Monuments historiques</option>
+                          <option value="">Lieux de culte</option>
+                          <option value="">Parcs et forêts</option>
+                          <option value="">Lacs, lagunes et rivières</option>
+                          <option value="">Marchés et centres culturels</option>
+                          <option value="">Hôtels et auberges</option>
+                          <option value="">Autres</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg d-flex">
+                  <div class="form-group d-flex w-100 border-0">
+                    <div class="form-field w-100 align-items-center d-flex">
+                      <input type="submit" value="Search" class="align-self-stretch form-control btn btn-primary">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="ftco-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 ftco-animate">
+          <div class="project-wrap">
+            <a href="ganvie.html" class="img" style="background-image: url('images bénin/cite-lacustre.jpg');"></a>
+            <div class="text p-4">
+              <h3><a href="ganvie.html">Ganvié</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Lac Nokoué</p>
+              <p>Cité lacustre du sud du Bénin inscrite depuis 1996 sur la liste indicative de l'UNESCO.</p>
+              <p class="text-center"><a href="ganvie.html">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate">
+          <div class="project-wrap">
+            <a href="#" class="img" style="background-image: url('images bénin/temple.jpg');"></a>
+            <div class="text p-4">
+              <h3><a href="#">Temple des Pythons</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Ouidah</p>
+              <p>Sanctuaire vaudou consacré au culte du python, protecteur et serviteur de la ville de Ouidah.
+              </p>
+              <p class="text-center"><a href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate">
+          <div class="project-wrap">
+            <a href="#" class="img" style="background-image: url('images bénin/peche.jpg');"></a>
+            <div class="text p-4">
+              <h3><a href="#">Lac Ahémé</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Lac Ahémé</p>
+              <p>Les villages riverains abritent une population vivant de la pêche et de l'agriculture.</p>
+              <p class="text-center"><a href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 ftco-animate mt-5">
+          <div class="project-wrap">
+            <a href="babsdock.html" class="img" style="background-image: url('images bénin/dock.jpg');"></a>
+            <div class="text p-4">
+              <h3><a href="babsdock.html">Bab's Dock</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Houndodji, Cococodji</p>
+              <p>Magnifique petit restaurant, au bord d’une lagune. On y accède en bateau en passant par une jungle
+                de mangrove.</p>
+              <p class="text-center"><a href="babsdock.html">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate mt-5">
+          <div class="project-wrap">
+            <a href="#" class="img" style="background-image: url('images bénin/porte.jpg');"></a>
+            <div class="text p-4">
+              <h3><a href="#">Porte du Non-Retour</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Ouidah</p>
+              <p>Arc mémorial qui commémore la déportation des esclaves noirs pour les Amériques lors de la traite
+                négrière.</p>
+              <p class="text-center"><a href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate mt-5">
+          <div class="project-wrap">
+            <a href="#" class="img" style="background-image: url('images bénin/tissus.jpg');"></a>
+            <div class="text p-4">
+              <h3><a href="#">Marché Dantokpa</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Bd Saint-Michel, Cotonou</p>
+              <p>Plus grand marché à ciel ouvert de l'Afrique de l'Ouest. La renommée du marché est sous-régionale voire
+                internationale.</p>
+              <p class="text-center"><a href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate mt-5">
+          <div class="project-wrap">
+            <a href="#" class="img" style="background-image: url('images bénin/savane.jpg');"></a>
+            <div class="text p-4">
+              <h3><a href="#">Parc National de la Pendjari</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Atacora</p>
+              <p>Le parc national de la Pendjari est le plus beau et le plus important parc faunique d'Afrique de
+                l'Ouest. Il fait partie du complexe W-Arly-Pendjarie, réserve de biosphère de l'Unesco.</p>
+              <p class="text-center"><a href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate mt-5">
+          <div class="project-wrap">
+            <a href="#" class="img" style="background-image: url('images bénin/abomey.jpg');"></a>
+            <div class="text p-4">
+              <h3><a href="#">Musée historique d'Abomey</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Abomey</p>
+              <p>Le Musée historique d'Abomey (capitale du royaume de Dahomey de 1625 à 1894) est un ensemble de
+                palais royaux inscrits au patrimoine mondial de l'humanité par l'UNESCO.</p>
+              <p class="text-center"><a href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 ftco-animate mt-5">
+          <div class="project-wrap">
+            <a href="#" class="img" style="background-image: url('images bénin/mosquee.jpg');" data-toggle="tooltip"
+              data-placement="top" title="Photo de Gildaskiki"></a>
+            <div class="text p-4">
+              <h3><a href="#">Grande Mosquée de Porto-Novo</a></h3>
+              <p class="location"><span class="fa fa-map-marker"></span> Porto-Novo</p>
+              <p>D'un style afro-brésilien, cette mosquée est également le reflet de la transformation urbaine,
+                économique et social de Porto-Novo après l'abolition de l'esclavage.</p>
+              <p class="text-center"><a href="#">En savoir plus</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col text-center">
+          <div class="block-27">
+            <ul>
+              <li><a href="#">&lt;</a></li>
+              <li class="active"><span>1</span></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">&gt;</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <footer class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(images/bg_3.jpg);">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-3 pt-5">
+          <div class="ftco-footer-widget pt-md-5 mb-4 mr-2">
+            <h2 class="ftco-heading-2 text-center">A propos</h2>
+            <p>Le projet Carto-Tourisme se propose de mettre en place un outil numérique innovant
+              qui permettra de faciliter le voyage à toute personne venant visiter le Bénin. Les porteurs
+              du projet sont Blolab et Géom@d.</p>
+            <img id="logoBlolab" class="d-inline-block" src="images bénin/logo blolab.png" alt=""
+              style="width: 100px; height: 40px;">
+            <img id="logoGeo" class="d-inline-block ml-5" src="images bénin/logo geomad.png" alt=""
+              style="width: 70px; height: 70px;">
+          </div>
+        </div>
+        <div class="col-5 pt-5 border-left">
+          <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-2">
+            <h2 class="ftco-heading-2 text-center">Blolab</h2>
+            <p>Le BloLab est une ONG, un laboratoire de fabrication numérique et un
+              espace de démocratisation technologique au service de l'innovation intervenant dans
+              les domaines de l'éducation et du numérique.</p>
+            <div class="block-23 mb-3">
+              <ul>
+                <li>
+                  <span class="icon fa fa-map-marker"></span>
+                  <span class="text">Cotonou, Kindonou,
+                    <br> 2ème immeuble après la pharmacie,
+                    <br> 3ème étage</span>
+                </li>
+                <!-- <li><span class="icon fa fa-map-marker"></span><span class="text">Porto-Novo, Qtier
+                                        Houinmey, pharmacie Adjibadé, 3ème étage</span></li> -->
+                <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+229 62 19 19
+                      35</span></a></li>
+                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span
+                      class="text">contact@blolab.org</span></a></li>
+              </ul>
+            </div>
+            <ul class="ftco-footer-social list-unstyled text-center">
+              <li class="ftco-animate"><a href="https://twitter.com/blolab_benin"><span
+                    class="fa fa-twitter"></span></a></li>
+              <li class="ftco-animate"><a href="https://www.facebook.com/blolabbenin/"><span
+                    class="fa fa-facebook"></span></a></li>
+              <li class="ftco-animate"><a href="https://blolab.org/"><span class="fa fa-globe"></span></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-4 pt-5 border-left">
+          <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-2">
+            <h2 class="ftco-heading-2 text-center">Géom@d</h2>
+            <p> GeomaD est une ONG spécialisée dans plusieurs domaines d'intervention.
+              Elle mène des activités pluridisciplinaires dans le développement de la communauté
+              et pour atteindre les objectifs du développement. </p>
+            <div class="block-23 mb-3">
+              <ul>
+                <li><a href="#"><span class="icon fa fa-phone"></span>
+                    <span class="text">+ 229 66 87 60 89</span></a></li>
+                <li><a href="#"><span class="icon fa fa-paper-plane"></span><span
+                      class="text">geomadong@gmail.com</span></a></li>
+              </ul>
+            </div>
+            <ul class="ftco-footer-social list-unstyled text-center">
+              <li class="ftco-animate"><a href="https://www.facebook.com/ONGGeomaD/
+                                "><span class="fa fa-facebook"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+
+        <p>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          Copyright &copy;
+          <script>document.write(new Date().getFullYear());</script> All rights reserved | This template
+          is made with
+          <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+          <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+        </p>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#F96D00" />
+    </svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/bootstrap-datepicker.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
+
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
+
+</body>
+
+</html>
